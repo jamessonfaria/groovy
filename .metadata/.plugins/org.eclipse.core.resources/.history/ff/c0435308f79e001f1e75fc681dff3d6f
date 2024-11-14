@@ -1,0 +1,15 @@
+package aula
+
+class Exercicio1 {
+	
+	static main(args){
+		println "ola mundo groovy"	
+		
+		String nome = "Fernando";
+		int idade = 10;
+		
+		println " o " + nome + " tem " + idade + " anos"
+		
+	}
+	
+}

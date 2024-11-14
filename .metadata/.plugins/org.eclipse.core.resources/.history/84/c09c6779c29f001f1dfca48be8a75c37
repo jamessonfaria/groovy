@@ -1,0 +1,33 @@
+package aula
+
+import org.junit.Test
+
+import classes.Cliente
+
+class Exercicios {
+
+	@Test
+	void exercicio1ponto2() {
+
+		int a = 10
+		println a.class
+		println a.toString()
+
+		println 11g.class.name
+
+		BigDecimal valor = 200.50
+		println valor
+		println valor.class
+	}
+
+	@Test
+	void exercicio2() {
+		Cliente cliente = new Cliente()
+		cliente.setNome "teste"
+		cliente.setData(new Date())
+		
+		println cliente.getNome()
+		println cliente.getData()
+		println(cliente.somar(10, 10))
+	}
+}
